@@ -1,0 +1,150 @@
+#HeaderWrapper, #ContentWrapper {
+	max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+
+#SearchBoxWrapper {
+    clear: both;
+    position: relative;
+}
+
+#menu-career {
+    background-color: #3f51b5;
+    /* padding: 10px; */
+    text-align: center;
+    /*margin-left: auto;
+    margin-right: auto;
+    width: 80%;*/
+}
+
+.menu-career ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    
+    
+    ms-flex-direction: row!important;
+    flex-direction: row!important;
+
+   /* max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;*/
+    width: 100%;
+
+}
+
+.menu-career ul li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding: 5px;
+    width: 20%;
+}
+
+.menu-career ul li.active {
+    border-top: 1px solid #3f51b5;
+    background-color: #fff;
+    
+}
+
+.menu-career ul li a {
+    color: #fff;
+}
+
+.menu-career ul li.active a {
+    color: #3f51b5;
+}
+
+.TopRightDiv {
+	float: right;
+}
+
+.PhoneNoDiv {
+    background: #03A9F4;
+    border: 1px solid white;
+    border-radius: 5px;
+    float: right;
+    width: 216px;
+    display: inline-table;
+    padding: 7px;
+    vertical-align: baseline;
+}
+
+.PhoneNumber a {
+	vertical-align: sub;
+	font-size: 17px;
+}
+
+#FooterInnerWrapper1 {
+    background-color: #000;
+    color: #fff;    
+}
+
+#FooterQuickLink, #FooterSecuredByDiv, #FooterQuickLinkList, #FooterWeAcceptDiv, #FooterTestimonilDiv {
+    float: left;
+}
+
+
+#TabWrapper {
+    background-color: #f44336ad;
+}
+
+
+/*
+.QuickLinksList	ul {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+	
+	
+	ms-flex-direction: row!important;
+    flex-direction: row!important;
+}
+
+.QuickLinksList li {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+	
+	display: list-item;
+    text-align: -webkit-match-parent;	
+}
+
+.QuickLinksList a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.QuickLinksList a {
+    background-color: transparent;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    display: block;
+    padding: .5rem 1rem;
+}
+
+*/
